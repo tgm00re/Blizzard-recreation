@@ -1,0 +1,165 @@
+* {
+    font-size: 8px;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+	} 
+
+#navbar{
+    background-color: #0b0d12;
+    color: rgba(255, 255, 255,0.7);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    
+}
+
+.hamburger{
+   display: none;
+   background-color: black;
+   color: skyblue;
+}
+
+#left-nav, #right-nav{
+    display: flex;
+    align-items: center;
+}
+
+#left-nav{
+    margin-left: 13%;
+}
+
+#right-nav{
+    margin-right: 13%;
+}
+
+
+#nav-logo{
+    width: 25px;
+    display: inline;
+}
+
+.ul-flex{
+    display: inline;
+}
+
+.ul-flex li{
+    margin-left: 10px;
+    display: inline;
+}
+
+p.label-left{
+    margin-right: 10px;
+}
+
+/*  -- - -- - -- - -- - - - - -- - -- -- - -- - -  */
+#main{
+    width: 100%;
+    height: 200px;
+    background-image: url('assets/WoW_BCC_BlackTemple_BlizzardDotCom-home-bannerDesktop_2500x514.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    padding: 25px 0 15px 20%;
+    background-color: rgba(33, 33, 33, .9);
+    margin-bottom: 0;
+}
+
+#bc-logo{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+.main-text{
+    font-size: 20px;
+    text-shadow: 0 2px 5px black;
+}
+
+.main-btn{
+    margin-top: 10px;
+    background-color: #006fb2;
+    border: solid 1px #00aeff;
+    cursor: pointer;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    width: 70px;
+}
+
+#image-selection{
+    height: 10px;
+    background-color: #0b0d12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection{
+    background-color: rgba(167, 157, 157, 0.9);
+    width: 50px;
+    height: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#games{
+    width: 100%;
+    height: 1130px;
+    background-image: url("assets/blizzardApp_background_default-d0180d1ecd0c5c7029949f0424782d03e944b6300b1ea9bcff3d5973a2b5fbdae231ea659a449bd2a34da4b042969de3f2c3c8868e6e8378f9425a97e778bf76.jpg");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 25px;
+}
+
+#games > #games-main-container >#games-text-container > h3{
+    font-size: 25px;
+}
+
+#games > #games-main-container > #games-text-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#games > #games-main-container >#games-text-container > a{
+    color: #00aeff;
+}
+
+
+#games-main-container{
+    max-width: 650px;
+    text-align: center;
+}
+
+
+.game{
+    width: 120px;
+    height: 160px;
+    margin: 3px;
+}
+
+
+
+
+
+/* Media Queries */
+
+/* Tablet */
+
+@media screen and (max-width: 1023px){
+    #navbar-left{}
+}
+
+/* Phone */
